@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./globals.css";
 import { Calendar } from "./components/ui/calendar";
 import { useState } from "react";
-import Page from "./components/ui/userComponents/page";
+import Page from "./components/ui/userComponents/mailComponents/page";
 import { Button } from "./components/ui/button";
 import { DatePicker } from "./components/ui/userComponents/datePicker";
 import InputOtpForm from "./components/ui/userComponents/inputOtpForm";
@@ -120,6 +120,10 @@ function App() {
             <RadarChartComponent />
             <AreaChartComponent />
           </div>
+        </div>
+        <div>
+          <h1 className="font-bold text-3xl py-3">Mail Dashboard Example</h1>
+          <Page />
         </div>
         {/* <Page /> */}
       </div>
